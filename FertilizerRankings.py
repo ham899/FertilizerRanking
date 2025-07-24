@@ -1,7 +1,10 @@
 # File: FertilizerRankings.py
 # Author: Hunter Moricz
 # Last Modified: June 30, 2025
-# Description: Predicts fertilizer rankings.
+# Description: Trains a CatBoost model on the full competition dataset using tuned 
+# hyperparameters, and generates ranked fertilizer predictions for the test set. 
+# Saves a CSV file containing top-3 fertilizer recommendations for each test sample 
+# for competition submission.
 # --------------------------------------------------------------------------------------------
 
 ################################### Libraries and functions ##################################
