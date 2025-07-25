@@ -4,7 +4,7 @@ This project was developed for [Kaggle's Playground Series - Season 5, Episode 6
 
 The objective is to produce ranked fertilizer recommendations based on environmental features such as weather conditions, soil type, and crop type. The rankings aim to propose the most suitable fertilizers under a given set of growing conditions.
 
-The evaluation metric used is **Mean Average Precision Error at 3 (MAP@3)**, which assigns higher scores to models that rank the correct fertilizer label higher in the top-3 predictions.
+The evaluation metric used is **Mean Average Precision at 3 (MAP@3)**, which assigns higher scores to models that rank the correct fertilizer label higher in the top-3 predictions.
 
 The model used is a **CatBoostClassifier** model, with its hyperparameters tuned using the **Optuna** package.
 
