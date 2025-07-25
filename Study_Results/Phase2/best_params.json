@@ -1,0 +1,1 @@
+{"learning_rate": 0.049745499889766426, "depth": 10, "colsample_bylevel": 0.46619923304859245, "od_wait": 39, "subsample": 0.06155900139866675, "min_data_in_leaf": 90, "l2_leaf_reg": 2.399719543149106, "random_strength": 0.050324592372389315, "bootstrap_type": "Bernoulli", "boosting_type": "Ordered", "loss_function": "MultiClass", "od_type": "IncToDec"}
