@@ -12,7 +12,7 @@ The model used is a **CatBoostClassifier** model, with its hyperparameters tuned
 
 ## Data
 
-The competition data is synthetically generated from an original dataset that I have included in this repository. The competition dataset can be found on the Kaggle competition [page](https://www.kaggle.com/competitions/playground-series-s5e6/data). Both datasets are licensed under **CC0: Public Domain**.
+The competition data is synthetically generated from an original dataset, which I have included in this repository in the `Data` folder. The competition dataset can be found on the Kaggle competition [page](https://www.kaggle.com/competitions/playground-series-s5e6/data). Both datasets are licensed under **CC0: Public Domain**.
 
 To run the files without modification, ensure a folder named `/Data` and a folder named `/Output` exist in your working directory.
 
@@ -48,7 +48,7 @@ Below are some additional files I have included in this repository:
   - The best parameters found for each phase are saved in a `.json` file.
   - The tuning trial results are saved in a `.csv` file.
 - The best number of iterations is saved in the `average_iterations.txt` file.
-- The `Output` folder contains the rankings the final model generated for the test set -> the submission `.csv` file.
+- The `Output` folder contains the rankings the final model generated for the test set. (the submission `.csv` file)
 
 ---
 
