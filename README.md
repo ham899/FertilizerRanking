@@ -12,7 +12,7 @@ The model used is a **CatBoostClassifier** model, with its hyperparameters tuned
 
 ## Data
 
-The competition data is synthetically generated from an original dataset that I have included in this repository. The competition dataset can be found on the [Kaggle Playground Series S5E6 Competition Page](https://www.kaggle.com/competitions/playground-series-s5e6/data). Both datasets are licensed under **CC0: Public Domain**.
+The competition data is synthetically generated from an original dataset that I have included in this repository. The competition dataset can be found on the Kaggle competition [page](https://www.kaggle.com/competitions/playground-series-s5e6/data). Both datasets are licensed under **CC0: Public Domain**.
 
 To run the files without modification, ensure a folder named `/Data` and a folder named `/Output` exist in your working directory.
 
