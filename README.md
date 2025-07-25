@@ -41,6 +41,15 @@ The rest of the pipeline is based on the competition dataset and is organized as
 | `FertilizerModelValidation.ipynb` | 4-fold cross-validation with early stopping to estimate final model performance and determine best iteration count. |
 | `FertilizerRankings.py` | Trains the final model on the full dataset using the tuned parameters and best iteration count, and generates ranked predictions for the test set. |
 
+### Additional Files
+
+Below are some additional files I have included in this repository:
+- The study results from Phase 1 and 2 tuning are in the `Study_Results` folder.
+  - The best parameters found for each phase are saved in a `.json` file.
+  - The tuning trial results are saved in a `.csv` file.
+- The best number of iterations is saved in the `average_iterations.txt` file.
+- The `Output` folder contains the rankings the final model generated for the test set -> the submission `.csv` file.
+
 ---
 
 ## Key Lessons
