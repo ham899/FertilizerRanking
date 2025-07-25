@@ -36,10 +36,11 @@ The rest of the pipeline is based on the competition dataset and is organized as
 | File | Purpose |
 |----------|---------|
 | `utils.py` | Contains utility functions for computing MAP@3 scores, generating prediction rankings from probabilities, and formatting final outputs.|
-| `Tuning/FertilizerTuning_Phase1.ipynb` | Broad hyperparameter tuning with Optuna to explore viable ranges. |
-| `Tuning/FertilizerTuning_Phase2.ipynb` | Focused tuning within narrowed ranges from Phase 1 results. |
+| `FertilizerTuning_Phase1.ipynb` | Broad hyperparameter tuning with Optuna to explore viable ranges. |
+| `FertilizerTuning_Phase2.ipynb` | Focused tuning within narrowed ranges from Phase 1 results. |
 | `FertilizerModelValidation.ipynb` | 4-fold cross-validation with early stopping to estimate final model performance and determine best iteration count. |
 | `FertilizerRankings.py` | Trains the final model on the full dataset using the tuned parameters and best iteration count, and generates ranked predictions for the test set. |
+- The Phase 1 and Phase 2 notebooks can be found in the `Tuning` folder.
 
 ### Additional Files
 
