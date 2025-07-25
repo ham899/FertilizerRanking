@@ -29,15 +29,15 @@ The final CatBoostClassifier model achieved an **MAP@3 score of 0.33073** in the
 
 ### Notebooks & Scripts
 
-The preliminary data exploration can be found in the notebook `FertilizerExploration.ipynb`, which works with the original dataset.
+The preliminary data exploration can be found in the notebook `FertilizerExploration.ipynb`, which works with the original dataset and can be found in the `Supplementary Material` folder.
 
 The rest of the pipeline is based on the competition dataset and is organized as follows:
 
 | File | Purpose |
 |----------|---------|
 | `utils.py` | Contains utility functions for computing MAP@3 scores, generating prediction rankings from probabilities, and formatting final outputs.|
-| `FertilizerTuning_Phase1.ipynb` | Broad hyperparameter tuning with Optuna to explore viable ranges. |
-| `FertilizerTuning_Phase2.ipynb` | Focused tuning within narrowed ranges from Phase 1 results. |
+| `Tuning/FertilizerTuning_Phase1.ipynb` | Broad hyperparameter tuning with Optuna to explore viable ranges. |
+| `Tuning/FertilizerTuning_Phase2.ipynb` | Focused tuning within narrowed ranges from Phase 1 results. |
 | `FertilizerModelValidation.ipynb` | 4-fold cross-validation with early stopping to estimate final model performance and determine best iteration count. |
 | `FertilizerRankings.py` | Trains the final model on the full dataset using the tuned parameters and best iteration count, and generates ranked predictions for the test set. |
 
